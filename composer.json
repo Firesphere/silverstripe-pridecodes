@@ -1,0 +1,21 @@
+{
+  "name": "firesphere/pride-code",
+  "description": "Show who you are. Show your pride",
+  "type": "silverstripe-module",
+  "keywords": ["silverstripe", "Pride", "Code", "pride.codes"],
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "Simon 'Sphere' Erkelens",
+      "email": "github@casa-laguna.net",
+      "homepage": "https://casa-laguna.net",
+      "role": "Developer"
+    }
+  ],
+  "require":
+  {
+    "silverstripe/framework": "~3.0",
+    "silverstripe/siteconfig": "~3.0",
+    "silverstripe/cms": "~3.0"
+  }
+}

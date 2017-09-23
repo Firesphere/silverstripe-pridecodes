@@ -1,0 +1,6 @@
+SiteConfig:
+  extensions:
+    - PrideSiteConfigExtension
+Controller:
+  extensions:
+    - PrideControllerExtension
