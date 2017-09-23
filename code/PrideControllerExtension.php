@@ -1,11 +1,15 @@
 <?php
 
 
-
+/**
+ * Class PrideControllerExtension
+ *
+ * @property ContentController $owner
+ */
 class PrideControllerExtension extends Extension
 {
 
-    public function onBeforeInit()
+    public function onAfterInit()
     {
         $config = SiteConfig::current_site_config();
         switch ($config->Pridecode) {

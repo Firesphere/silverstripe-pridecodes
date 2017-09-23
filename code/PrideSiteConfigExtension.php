@@ -1,5 +1,11 @@
 <?php
 
+/**
+ * Class PrideSiteConfigExtension
+ *
+ * @property SiteConfig|PrideSiteConfigExtension $owner
+ * @property int $Pridecode
+ */
 class PrideSiteConfigExtension extends DataExtension
 {
 
